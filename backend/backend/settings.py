@@ -150,10 +150,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Mail configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'mail.s-pay.click'
+EMAIL_HOST = 'smtp.world4you.com'
 EMAIL_HOST_USER = 'info@s-pay.click'
-EMAIL_HOST_PASSWORD = r')dxfcvIy(jretmogawkpzEq7ibn6hl'
-EMAIL_PORT = 25
-EMAIL_USE_TLS = False
+EMAIL_HOST_PASSWORD = r'P@ssw0rd123'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_RECIPIENT_LIST = ['valakhosravi0@gmail.com']
