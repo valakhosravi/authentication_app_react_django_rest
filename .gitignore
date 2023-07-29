@@ -1,0 +1,38 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore local development settings
+*.env
+*.sqlite3
+
+# Ignore development-specific files
+*.log
+*.pot
+*.pyc
+db.sqlite3
+local_settings.py
+
+# Ignore media and static files uploaded by users
+media/
+static/
+
+# Ignore compiled JavaScript and CSS files
+*.js
+*.css
+
+# Ignore compiled font files
+*.woff
+*.woff2
+
+# Ignore IDE and editor-specific files
+.vscode/
+*.pydevproject
+*.idea/
+*.egg-info/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
